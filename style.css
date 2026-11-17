@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,600;1,14..32,600&display=swap');
+
+* {
+    font-family: "Inter";
+}
+
+body {
+    background: url(assets/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#controls {
+    padding: 11px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: auto;
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+      box-shadow: 
+    0 20px 40px -10px rgba(0, 0, 0, 0.35),
+    inset 0 1.5px 1px 0 rgba(255, 255, 255, 0.65),
+    inset 0 -2px 4px 0 rgba(255, 255, 255, 0.2),
+    inset 0 0 20px 0 rgba(255, 255, 255, 0.15);
+}
+
+a { 
+    transition: 1s;
+    text-decoration: none;
+    color: white;
+}
