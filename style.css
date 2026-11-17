@@ -5,7 +5,7 @@
 }
 
 body {
-    background: url(assets/wallpaper.jpg);
+    background: url(wallpaper.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
